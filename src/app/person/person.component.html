@@ -1,0 +1,9 @@
+<input type="text" class="form-control" [(ngModel)]="username" />
+<p>{{ username }}</p>
+<button
+  class="btn btn-success"
+  [disabled]="!username"
+  (click)="onClickRemoveText()"
+>
+  Reset
+</button>
