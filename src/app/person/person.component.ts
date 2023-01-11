@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class PersonComponent {
   username = '';
 
-  onClickRemoveText() {
+  onClickResetText() {
     this.username = '';
   }
 }
